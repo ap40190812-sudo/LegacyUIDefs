@@ -112,7 +112,7 @@ public class Legacy4JStoreScreen extends PanelVListScreen implements ControlTool
             LegacyFontUtil.applySDFont(sd -> {
                 int lineY = y;
                 for (FormattedCharSequence formattedCharSequence : font.split(getTitle(), getRenderableVList().listWidth - 10)) {
-                    GuiGraphicsExtractor.text(font, formattedCharSequence, panel.getX() + (panel.getWidth() - font.width(formattedCharSequence)) / 2, lineY, CommonColor.GRAY_TEXT.get(), false);
+                    GuiGraphicsExtractor.text(font, formattedCharSequence, panel.getX() + (panel.getWidth() - font.width(formattedCharSequence)) / 2, lineY, CommonColor.HTML_COLOR_BLACK.get(), false);
                     lineY += sd ? 8 : 12;
                 }
             });
