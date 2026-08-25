@@ -419,13 +419,13 @@ public class LeaderboardsScreen extends PanelVListScreen {
                     GuiGraphicsExtractor.pose().pushMatrix();
                     GuiGraphicsExtractor.pose().translate(panel.x + (panel.width - font.width(NO_RESULTS) * 1.5f) / 2f, panel.y + (panel.height - 13.5f) / 2f);
                     GuiGraphicsExtractor.pose().scale(1.5f, 1.5f);
-                    GuiGraphicsExtractor.text(font, NO_RESULTS, 0, 0, CommonColor.GRAY_TEXT.get(), false);
+                    GuiGraphicsExtractor.text(font, NO_RESULTS, 0, 0, CommonColor.HTML_COLOR_BLACK.get(), false);
                     GuiGraphicsExtractor.pose().popMatrix();
                     return;
                 }
                 LegacyFontUtil.applySDFont(b -> {
-                    GuiGraphicsExtractor.text(font, RANK, panel.x + accessor.getInteger("rankText.x", 40), panel.y + accessor.getInteger("rankText.y", 20), CommonColor.GRAY_TEXT.get(), false);
-                    GuiGraphicsExtractor.text(font, USERNAME, panel.x + accessor.getInteger("usernameText.x", 108), panel.y + accessor.getInteger("usernameText.y", 20), CommonColor.GRAY_TEXT.get(), false);
+                    GuiGraphicsExtractor.text(font, RANK, panel.x + accessor.getInteger("rankText.x", 40), panel.y + accessor.getInteger("rankText.y", 20), CommonColor.HTML_COLOR_BLACK.get(), false);
+                    GuiGraphicsExtractor.text(font, USERNAME, panel.x + accessor.getInteger("usernameText.x", 108), panel.y + accessor.getInteger("usernameText.y", 20), CommonColor.HTML_COLOR_BLACK.get(), false);
                 });
 
                 int statsBoardX = accessor.getInteger("statsBoard.x", 182);
@@ -558,7 +558,7 @@ public class LeaderboardsScreen extends PanelVListScreen {
                         GuiGraphicsExtractor.pose().pushMatrix();
                         GuiGraphicsExtractor.pose().translate(l.getX() + 4, l.getY());
                         if (!b) GuiGraphicsExtractor.pose().scale(2 / 3f, 2 / 3f);
-                        GuiGraphicsExtractor.text(Minecraft.getInstance().font, name, 0, 0, CommonColor.GRAY_TEXT.get(), false);
+                        GuiGraphicsExtractor.text(Minecraft.getInstance().font, name, 0, 0, CommonColor.HTML_COLOR_BLACK.get(), false);
                         GuiGraphicsExtractor.pose().popMatrix();
                     })));
 
