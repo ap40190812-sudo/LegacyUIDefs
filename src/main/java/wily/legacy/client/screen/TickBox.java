@@ -86,7 +86,7 @@ public class TickBox extends AbstractButton implements RenderableVListEntry {
         FactoryGuiGraphics.of(GuiGraphicsExtractor).setBlitColor(1.0f, 1.0f, 1.0f, 1.0F);
         GuiGraphicsExtractor.pose().pushMatrix();
         if (!isHoveredOrFocused()) GuiGraphicsExtractor.pose().translate(0.4f, 0.4f);
-        this.renderString(GuiGraphicsExtractor, minecraft.font, ColorUtil.withAlpha(isHoveredOrFocused() ? LegacyRenderUtil.getDefaultTextColor() : CommonColor.GRAY_TEXT.get(), alpha));
+        this.renderString(GuiGraphicsExtractor, minecraft.font, ColorUtil.withAlpha(isHoveredOrFocused() ? LegacyRenderUtil.getDefaultTextColor() : CommonColor.HTML_COLOR_BLACK.get(), alpha));
         GuiGraphicsExtractor.pose().popMatrix();
     }
 
