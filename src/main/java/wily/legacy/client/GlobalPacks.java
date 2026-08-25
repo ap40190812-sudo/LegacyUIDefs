@@ -296,7 +296,7 @@ public record GlobalPacks(List<String> list, boolean applyOnTop) {
             FactoryScreenUtil.disableBlend();
             GuiGraphicsExtractor.pose().pushMatrix();
             if (!isHoveredOrFocused()) GuiGraphicsExtractor.pose().translate(0.4f, 0.4f);
-            GuiGraphicsExtractor.text(font, getMessage(), getX() + 2, getY(), isHoveredOrFocused() ? LegacyRenderUtil.getDefaultTextColor() : CommonColor.GRAY_TEXT.get(), isHoveredOrFocused());
+            GuiGraphicsExtractor.text(font, getMessage(), getX() + 2, getY(), isHoveredOrFocused() ? LegacyRenderUtil.getDefaultTextColor() : CommonColor.HTML_COLOR_BLACK.get(), isHoveredOrFocused());
             GuiGraphicsExtractor.pose().popMatrix();
             if (scrolledList.max > 0) {
                 if (scrolledList.get() < scrolledList.max)
