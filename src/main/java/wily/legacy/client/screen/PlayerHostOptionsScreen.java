@@ -90,7 +90,7 @@ public class PlayerHostOptionsScreen extends PanelVListScreen {
     public void renderDefaultBackground(GuiGraphicsExtractor GuiGraphicsExtractor, int i, int j, float f) {
         panel.extractRenderState(GuiGraphicsExtractor, i, j, f);
         HostOptionsScreen.drawPlayerIcon((LegacyPlayerInfo) playerInfo, GuiGraphicsExtractor, panel.x + 7, panel.y + 5);
-        GuiGraphicsExtractor.text(font, playerInfo.getProfile().name(), panel.x + 31, panel.y + 12, CommonColor.GRAY_TEXT.get(), false);
+        GuiGraphicsExtractor.text(font, playerInfo.getProfile().name(), panel.x + 31, panel.y + 12, CommonColor.HTML_COLOR_BLACK.get(), false);
     }
 
     @Override
