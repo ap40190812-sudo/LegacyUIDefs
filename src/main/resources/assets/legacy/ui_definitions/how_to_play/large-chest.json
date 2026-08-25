@@ -42,7 +42,7 @@
           "component": {
             "translate": "container.chestDouble"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+8",
           "y": "${panel.y}+7"
@@ -160,7 +160,7 @@
           "component": {
             "translate": "container.inventory"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+8",
           "y": "${panel.y}+95+27"
@@ -331,7 +331,7 @@
           "component": {
             "translate": "container.chestDouble"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "translateX": "${panel.x}+6",
           "translateY": "${panel.y}+10",
@@ -450,7 +450,7 @@
           "component": {
             "translate": "container.inventory"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "translateX": "${panel.x}+6",
           "translateY": "${panel.y}+78",
