@@ -47,7 +47,7 @@
               }
             ]
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+${panel.width}/2-${trader_title.component.width}/2",
           "y": "${panel.y}+12"
@@ -237,7 +237,7 @@
           "component": {
             "translate": "merchant.level.3"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+15+(${trade_panel.width}-${trade_label.component.width})/2",
           "y": "${panel.y}+100"
@@ -247,7 +247,7 @@
           "component": {
             "translate": "container.inventory"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+128+(${inventory_panel.width}-${inventory_label.component.width})/2",
           "y": "${panel.y}+87"
@@ -422,7 +422,7 @@
               }
             ]
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+(${panel.width}-${trader_title.component.width})/2",
           "y": "${panel.y}+6"
@@ -625,7 +625,7 @@
             "translate": "merchant.level.3",
             "font": "legacy:default_11"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${trade_panel.x}+(${trade_panel.width}-${trade_label.component.width})/2",
           "y": "${trade_panel.y}+8"
@@ -636,7 +636,7 @@
             "translate": "container.inventory",
             "font": "legacy:default_11"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${inventory_panel.x}+(${inventory_panel.width}-${inventory_label.component.width})/2",
           "y": "${inventory_panel.y}+3"
