@@ -174,7 +174,7 @@
           "component": {
             "translate": "legacy.container.tab.building_blocks"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+(${panel.width}-${tab_label.component.width})/2",
           "y": "${panel.y}+9"
@@ -451,7 +451,7 @@
           "component": {
             "translate": "legacy.container.tab.building_blocks"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "translateX": "${panel.x}+(${panel.width}-${tab_label.component.width}/2)/2",
           "translateY": "${panel.y}+4",
