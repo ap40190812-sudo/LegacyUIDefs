@@ -148,8 +148,8 @@ public class ConfirmationScreen extends OverlayPanelScreen implements Renderable
         super.extractRenderState(GuiGraphicsExtractor, i, j, f);
         int textX = panel.x + (panel.width - messageLabel.width) / 2;
         LegacyFontUtil.applySDFont(b -> {
-            LegacyRenderUtil.renderScrollingString(GuiGraphicsExtractor, font, title, textX, panel.y + (b ? 6 : 15), textX + messageLabel.width, panel.y + (b ? 6 : 15) + 11, CommonColor.GRAY_TEXT.get(), false);
-            messageLabel.withPos(textX, panel.y + messageYOffset.get()).withColor(CommonColor.GRAY_TEXT.get()).withShadow(false).extractRenderState(GuiGraphicsExtractor, i, j, f);
+            LegacyRenderUtil.renderScrollingString(GuiGraphicsExtractor, font, title, textX, panel.y + (b ? 6 : 15), textX + messageLabel.width, panel.y + (b ? 6 : 15) + 11, CommonColor.HTML_COLOR_BLACK.get(), false);
+            messageLabel.withPos(textX, panel.y + messageYOffset.get()).withColor(CommonColor.HTML_COLOR_BLACK.get()).withShadow(false).extractRenderState(GuiGraphicsExtractor, i, j, f);
         });
     }
 
