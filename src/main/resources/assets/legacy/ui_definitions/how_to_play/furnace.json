@@ -50,7 +50,7 @@
           "component": {
             "translate": "container.furnace"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+14",
           "y": "${panel.y}+10"
@@ -71,7 +71,7 @@
           "component": {
             "translate": "legacy.container.ingredient"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "(${panel.x}+14+3*21-3)-${input_label.component.width}",
           "y": "${panel.y}+25+6"
