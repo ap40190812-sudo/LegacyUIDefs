@@ -46,7 +46,7 @@
           "component": {
             "translate": "block.minecraft.crafter"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+${panel.width}/2-${autocrafter_label.component.width}/2",
           "y": "${panel.y}+11"
@@ -124,7 +124,7 @@
           "component": {
             "translate": "container.inventory"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+14",
           "y": "${panel.y}+90"
@@ -296,7 +296,7 @@
             "translate": "block.minecraft.crafter",
             "font": "legacy:default_11"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+${panel.width}/2-${autocrafter_label.component.width}/2",
           "y": "${panel.y}+5"
@@ -379,7 +379,7 @@
             "translate": "container.inventory",
             "font": "legacy:default_11"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+7",
           "y": "${panel.y}+66"
