@@ -69,6 +69,49 @@ public class CommonColor extends CommonValue<Integer> {
     public static final CommonColor WHITE = registerCommonColor("white", 0xFFFFFFFF);
     public static final CommonColor BLOCK_LIGHT = registerCommonColor("block_light", 0xFFFFD88C);
 
+    public static final CommonColor HTML_COLOR_0 = registerCommonColor("html_color_0", 0xFF000000);
+    public static final CommonColor HTML_COLOR_1 = registerCommonColor("html_color_1", 0xFF0000AA);
+    public static final CommonColor HTML_COLOR_2 = registerCommonColor("html_color_2", 0xFF109E10);
+    public static final CommonColor HTML_COLOR_3 = registerCommonColor("html_color_3", 0xFF109E9E);
+    public static final CommonColor HTML_COLOR_4 = registerCommonColor("html_color_4", 0xFFAA0000);
+    public static final CommonColor HTML_COLOR_5 = registerCommonColor("html_color_5", 0xFFDE5BD9);
+    public static final CommonColor HTML_COLOR_6 = registerCommonColor("html_color_6", 0xFFFFAA00);
+    public static final CommonColor HTML_COLOR_7 = registerCommonColor("html_color_7", 0xFFAAAAAA);
+    public static final CommonColor HTML_COLOR_8 = registerCommonColor("html_color_8", 0xFF555555);
+    public static final CommonColor HTML_COLOR_9 = registerCommonColor("html_color_9", 0xFF7878FF);
+    public static final CommonColor HTML_COLOR_A = registerCommonColor("html_color_a", 0xFF55FF55);
+    public static final CommonColor HTML_COLOR_B = registerCommonColor("html_color_b", 0xFF55FFFF);
+    public static final CommonColor HTML_COLOR_C = registerCommonColor("html_color_c", 0xFFFF5555);
+    public static final CommonColor HTML_COLOR_D = registerCommonColor("html_color_d", 0xFFFF55FF);
+    public static final CommonColor HTML_COLOR_E = registerCommonColor("html_color_e", 0xFFFFFF55);
+    public static final CommonColor HTML_COLOR_F = registerCommonColor("html_color_f", 0xFFFFFFFF);
+    public static final CommonColor COLOR_ITEM_COUNT = registerCommonColor("color_item_count", 0xFFFFFFFF);
+    public static final CommonColor HTML_COLOR_DARK_0 = registerCommonColor("html_color_dark_0", 0xFF000000);
+    public static final CommonColor HTML_COLOR_DARK_1 = registerCommonColor("html_color_dark_1", 0xFF00002A);
+    public static final CommonColor HTML_COLOR_DARK_2 = registerCommonColor("html_color_dark_2", 0xFF002A00);
+    public static final CommonColor HTML_COLOR_DARK_3 = registerCommonColor("html_color_dark_3", 0xFF002A2A);
+    public static final CommonColor HTML_COLOR_DARK_4 = registerCommonColor("html_color_dark_4", 0xFF2A0000);
+    public static final CommonColor HTML_COLOR_DARK_5 = registerCommonColor("html_color_dark_5", 0xFF2A002A);
+    public static final CommonColor HTML_COLOR_DARK_6 = registerCommonColor("html_color_dark_6", 0xFF2A2A00);
+    public static final CommonColor HTML_COLOR_DARK_7 = registerCommonColor("html_color_dark_7", 0xFF2A2A2A);
+    public static final CommonColor HTML_COLOR_DARK_8 = registerCommonColor("html_color_dark_8", 0xFF151515);
+    public static final CommonColor HTML_COLOR_DARK_9 = registerCommonColor("html_color_dark_9", 0xFF15153F);
+    public static final CommonColor HTML_COLOR_DARK_A = registerCommonColor("html_color_dark_a", 0xFF153F15);
+    public static final CommonColor HTML_COLOR_DARK_B = registerCommonColor("html_color_dark_b", 0xFF153F3F);
+    public static final CommonColor HTML_COLOR_DARK_C = registerCommonColor("html_color_dark_c", 0xFF3F1515);
+    public static final CommonColor HTML_COLOR_DARK_D = registerCommonColor("html_color_dark_d", 0xFF3F153F);
+    public static final CommonColor HTML_COLOR_DARK_E = registerCommonColor("html_color_dark_e", 0xFF3F3F15);
+    public static final CommonColor HTML_COLOR_DARK_F = registerCommonColor("html_color_dark_f", 0xFF3F3F3F);
+    public static final CommonColor COLOR_ENCHANT_TEXT_FOCUS = registerCommonColor("color_item_count", 0xFFFFFF80);
+    public static final CommonColor HTML_COLOR_T1 = registerCommonColor("html_color_t1", 0xFFC81E1E);
+    public static final CommonColor HTML_COLOR_T2 = registerCommonColor("html_color_t2", 0xFF1C60D6);
+    public static final CommonColor HTML_COLOR_T3 = registerCommonColor("html_color_t3", 0xFF2A9524);
+    public static final CommonColor HTML_COLOR_BLACK = registerCommonColor("html_color_black", 0xFF323232);
+    public static final CommonColor HTML_COLOR_WHITE = registerCommonColor("html_color_white", 0xFFEBEBEB);
+    public static final CommonColor COLOR_ENCHANT_TEXT = registerCommonColor("color_item_count", 0xFF685E4A);
+    public static final CommonColor COLOR_ENCHANT_TEXT_DISABLED = registerCommonColor("enchant_text_disabled", 0xFF342F25);
+    public static final CommonColor COLOR_RENAMED_ITEM_TITLE = registerCommonColor("renamed_item_tile", 0xFFFFB82E);
+
     public CommonColor(Integer obj) {
         super(obj, INT_COLOR_CODEC);
     }
