@@ -42,7 +42,7 @@
           "component": {
             "translate": "block.minecraft.smithing_table"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+56",
           "y": "${panel.y}+25"
@@ -125,7 +125,7 @@
           "component": {
             "translate": "container.inventory"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+10",
           "y": "${panel.y}+105"
@@ -293,7 +293,7 @@
             "translate": "block.minecraft.smithing_table",
             "font": "legacy:default_11"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+54",
           "y": "${panel.y}+6"
@@ -380,7 +380,7 @@
             "translate": "container.inventory",
             "font": "legacy:default_11"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+7",
           "y": "${panel.y}+67"
