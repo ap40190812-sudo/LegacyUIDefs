@@ -52,7 +52,7 @@ public class PlayGameScreen extends PanelVListScreen implements ControlTooltip.E
     public final CreationList creationList = new CreationList(accessor);
     protected final Panel panelRecess;
     protected final ServerRenderableList serverRenderableList = PublishScreen.hasWorldHost() ? new FriendsServerRenderableList(accessor) : new ServerRenderableList(accessor);
-    protected final TabList tabList = new TabList(accessor).add(LegacyTabButton.Type.LEFT, Component.translatable("legacy.menu.load"), b -> repositionElements()).add(LegacyTabButton.Type.MIDDLE, Component.translatable("legacy.menu.create"), b -> repositionElements()).add(LegacyTabButton.Type.RIGHT, (t, GuiGraphicsExtractor, i, j, f) -> t.renderString(GuiGraphicsExtractor, font, canNotifyOnlineFriends() ? 0xFFFFFFFF : CommonColor.GRAY_TEXT.get(), canNotifyOnlineFriends()), Component.translatable("legacy.menu.join"), b -> {
+    protected final TabList tabList = new TabList(accessor).add(LegacyTabButton.Type.LEFT, Component.translatable("legacy.menu.load"), b -> repositionElements()).add(LegacyTabButton.Type.MIDDLE, Component.translatable("legacy.menu.create"), b -> repositionElements()).add(LegacyTabButton.Type.RIGHT, (t, GuiGraphicsExtractor, i, j, f) -> t.renderString(GuiGraphicsExtractor, font, canNotifyOnlineFriends() ? 0xFFFFFFFF : CommonColor.HTML_COLOR_BLACK.get(), canNotifyOnlineFriends()), Component.translatable("legacy.menu.join"), b -> {
         if (this.minecraft.options.skipMultiplayerWarning)
             repositionElements();
         else
