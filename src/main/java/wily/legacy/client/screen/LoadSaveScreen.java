@@ -340,11 +340,11 @@ public class LoadSaveScreen extends PanelBackgroundScreen {
         GuiGraphicsExtractor.pose().translate(0, 0.6f);
         FactoryGuiGraphics.of(GuiGraphicsExtractor).blit(SaveRenderableList.getIcon(summary).textureLocation(), iconX, iconY, 0, 0, iconSize, iconSize, iconSize, iconSize);
         LegacyFontUtil.applySDFont(b -> {
-            GuiGraphicsExtractor.text(font, summary.getLevelName(), accessor.getInteger("nameText.x", panel.x + 48), accessor.getInteger("nameText.y", panel.y + 12), CommonColor.GRAY_TEXT.get(), false);
-            GuiGraphicsExtractor.text(font, Component.translatable("legacy.menu.load_save.created_in", (hasCommands(summary) ? GameType.CREATIVE : GameType.SURVIVAL).getShortDisplayName()), accessor.getInteger("creationText.x", panel.x + 48), accessor.getInteger("creationText.y", panel.y + 29), CommonColor.GRAY_TEXT.get(), false);
+            GuiGraphicsExtractor.text(font, summary.getLevelName(), accessor.getInteger("nameText.x", panel.x + 48), accessor.getInteger("nameText.y", panel.y + 12), CommonColor.HTML_LABEL_BLACK.get(), false);
+            GuiGraphicsExtractor.text(font, Component.translatable("legacy.menu.load_save.created_in", (hasCommands(summary) ? GameType.CREATIVE : GameType.SURVIVAL).getShortDisplayName()), accessor.getInteger("creationText.x", panel.x + 48), accessor.getInteger("creationText.y", panel.y + 29), CommonColor.HTML_LABEL_BLACK.get(), false);
             GuiGraphicsExtractor.pose().popMatrix();
             if (!isLocked)
-                GuiGraphicsExtractor.text(font, Component.translatable("commands.seed.success", LegacyClientWorldSettings.of(summary.getSettings()).getDisplaySeed()), accessor.getInteger("seedText.x", panel.x + 13), accessor.getInteger("seedText.y", panel.y + 49), CommonColor.GRAY_TEXT.get(), false);
+                GuiGraphicsExtractor.text(font, Component.translatable("commands.seed.success", LegacyClientWorldSettings.of(summary.getSettings()).getDisplaySeed()), accessor.getInteger("seedText.x", panel.x + 13), accessor.getInteger("seedText.y", panel.y + 49), CommonColor.HTML_LABEL_BLACK.get(), false);
         });
     }
 
