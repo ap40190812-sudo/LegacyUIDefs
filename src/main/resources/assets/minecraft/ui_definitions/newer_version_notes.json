@@ -29,7 +29,7 @@
                 "translate": "legacy.menu.newerMinecraftVersion"
               },
               "shadow": false,
-              "color": "${commonColor.inventory_gray_text}",
+              "color": "${commonColor.html_color_black}",
               "width": 348
             },
             "text1": {
@@ -38,7 +38,7 @@
                 "baseDir": "minecraft:changelog"
               },
               "shadow": false,
-              "color": "${commonColor.inventory_gray_text}",
+              "color": "${commonColor.html_color_black}",
               "width": 348
             }
           }
@@ -90,7 +90,7 @@
                 "font": "legacy:default_11"
               },
               "shadow": false,
-              "color": "${commonColor.inventory_gray_text}",
+              "color": "${commonColor.html_color_black}",
               "lineHeight": 8,
               "width": 253
             },
@@ -102,7 +102,7 @@
                 "font": "legacy:default_11"
               },
               "shadow": false,
-              "color": "${commonColor.inventory_gray_text}",
+              "color": "${commonColor.html_color_black}",
               "lineHeight": 8,
               "width": 253
             }
