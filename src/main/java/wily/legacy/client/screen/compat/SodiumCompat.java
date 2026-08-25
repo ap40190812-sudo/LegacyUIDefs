@@ -84,7 +84,7 @@ public class SodiumCompat {
             for (Page page : modOption.pages()) {
                 List<AbstractWidget> widgets = page.groups().stream().flatMap(optionGroup -> optionGroup.options().stream()).map(SodiumCompat::getGenericSodiumOptionWidget).filter(Objects::nonNull).toList();
                 if (!widgets.isEmpty()) {
-                    screen.getRenderableVList().addRenderable(SimpleLayoutRenderable.createDrawString(page.name(), 0, 1, 200, 9, CommonColor.GRAY_TEXT.get(), false));
+                    screen.getRenderableVList().addRenderable(SimpleLayoutRenderable.createDrawString(page.name(), 0, 1, 200, 9, CommonColor.HTML_COLOR_BLACK.get(), false));
                     screen.getRenderableVList().renderables.addAll(widgets);
                 }
             }
