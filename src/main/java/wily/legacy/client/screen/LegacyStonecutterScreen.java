@@ -105,11 +105,11 @@ public class LegacyStonecutterScreen extends RecipesScreen<LegacyCraftingMenu, R
 
     public void extractLabels(GuiGraphicsExtractor GuiGraphicsExtractor, int i, int j) {
         LegacyFontUtil.applySDFont(b -> {
-            GuiGraphicsExtractor.text(this.font, title, (imageWidth - font.width(title)) / 2, accessor.getInteger("title.y", 17), CommonColor.GRAY_TEXT.get(), false);
+            GuiGraphicsExtractor.text(this.font, title, (imageWidth - font.width(title)) / 2, accessor.getInteger("title.y", 17), CommonColor.HTML_COLOR_BLACK.get(), false);
             int inventoryPanelX = accessor.getInteger("inventoryPanel.x", 176);
             int bottomPanelY = accessor.getInteger("bottomPanel.y", 103);
             int inventoryPanelWidth = accessor.getInteger("inventoryPanel.width", 163);
-            GuiGraphicsExtractor.text(this.font, this.playerInventoryTitle, inventoryPanelX + (inventoryPanelWidth - font.width(playerInventoryTitle)) / 2, bottomPanelY + accessor.getInteger("inventoryTitle.y", 11), CommonColor.GRAY_TEXT.get(), false);
+            GuiGraphicsExtractor.text(this.font, this.playerInventoryTitle, inventoryPanelX + (inventoryPanelWidth - font.width(playerInventoryTitle)) / 2, bottomPanelY + accessor.getInteger("inventoryTitle.y", 11), CommonColor.HTML_COLOR_BLACK.get(), false);
         });
     }
 
@@ -192,7 +192,7 @@ public class LegacyStonecutterScreen extends RecipesScreen<LegacyCraftingMenu, R
                 if (getFocusedRecipe() != null) {
                     Component resultName = getFocusedRecipe().getName();
                     int titleY = yDiff + accessor.getInteger("craftingTitle.y", 11);
-                    LegacyFontUtil.applySDFont(b -> LegacyRenderUtil.renderScrollingString(graphics, font, resultName, xDiff + 2 + Math.max(panelWidth - font.width(resultName), 0) / 2, titleY, xDiff + panelWidth - 2, titleY + 11, CommonColor.GRAY_TEXT.get(), false));
+                    LegacyFontUtil.applySDFont(b -> LegacyRenderUtil.renderScrollingString(graphics, font, resultName, xDiff + 2 + Math.max(panelWidth - font.width(resultName), 0) / 2, titleY, xDiff + panelWidth - 2, titleY + 11, CommonColor.HTML_COLOR_BLACK.get(), false));
                 }
                 super.renderSelection(graphics, i, j, f);
             }
