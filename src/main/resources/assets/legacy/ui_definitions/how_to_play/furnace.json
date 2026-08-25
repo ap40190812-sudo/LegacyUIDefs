@@ -92,7 +92,7 @@
           "component": {
             "translate": "legacy.container.fuel"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "(${panel.x}+14+3*21-3)-${fuel_label.component.width}",
           "y": "${panel.y}+72+6"
@@ -142,7 +142,7 @@
           "component": {
             "translate": "container.inventory"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+14",
           "y": "${panel.y}+106"
@@ -341,7 +341,7 @@
             "translate": "legacy.container.ingredient",
             "font": "legacy:default_11"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+55-${input_label.component.width}",
           "y": "${panel.y}+19"
@@ -364,7 +364,7 @@
             "translate": "legacy.container.fuel",
             "font": "legacy:default_11"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+55-${fuel_label.component.width}",
           "y": "${panel.y}+53"
@@ -413,7 +413,7 @@
             "translate": "container.inventory",
             "font": "legacy:default_11"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${panel.x}+6",
           "y": "${panel.y}+71"
