@@ -179,7 +179,7 @@ public class HostOptionsScreen extends PanelVListScreen {
         panel.extractRenderState(GuiGraphicsExtractor, i, j, f);
         FactoryScreenUtil.disableBlend();
         FactoryGuiGraphics.of(GuiGraphicsExtractor).setBlitColor(1.0f, 1.0f, 1.0f, 1.0f);
-        LegacyFontUtil.applySDFont(sd -> GuiGraphicsExtractor.text(font, title, panel.x + accessor.getInteger("title.x", 11), panel.y + accessor.getInteger("title.y", 8), CommonColor.GRAY_TEXT.get(), false));
+        LegacyFontUtil.applySDFont(sd -> GuiGraphicsExtractor.text(font, title, panel.x + accessor.getInteger("title.x", 11), panel.y + accessor.getInteger("title.y", 8), CommonColor.HTML_COLOR_BLACK.get(), false));
     }
 
     protected abstract class PlayerButton extends ListButton implements RenderableVListEntry, ControlTooltip.ActionHolder {
