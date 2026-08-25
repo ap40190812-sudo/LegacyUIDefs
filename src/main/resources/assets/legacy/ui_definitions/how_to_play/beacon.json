@@ -212,7 +212,7 @@
             "translate": "block.minecraft.beacon.primary",
             "font": "legacy:default_11"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${left_square_panel.x}+(${left_square_panel.width}-${primary_power_label.component.width})/2",
           "y": "${left_square_panel.y}+3"
@@ -223,7 +223,7 @@
             "translate": "block.minecraft.beacon.secondary",
             "font": "legacy:default_11"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "x": "${right_square_panel.x}+(${right_square_panel.width}-${secondary_power_label.component.width})/2",
           "y": "${right_square_panel.y}+3"
@@ -598,7 +598,7 @@
           "component": {
             "translate": "block.minecraft.beacon.primary"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "translateX": "${left_square_panel.x}+(${left_square_panel.width}-${primary_power_label.component.width}/2)/2",
           "translateY": "${left_square_panel.y}+3",
@@ -610,7 +610,7 @@
           "component": {
             "translate": "block.minecraft.beacon.secondary"
           },
-          "color": "${commonColor.inventory_gray_text}",
+          "color": "${commonColor.html_color_black}",
           "shadow": false,
           "translateX": "${right_square_panel.x}+(${right_square_panel.width}-${secondary_power_label.component.width}/2)/2",
           "translateY": "${right_square_panel.y}+3",
