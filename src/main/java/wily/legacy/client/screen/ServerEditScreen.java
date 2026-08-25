@@ -72,7 +72,7 @@ public class ServerEditScreen extends ConfirmationScreen {
     public void extractRenderState(GuiGraphicsExtractor GuiGraphicsExtractor, int i, int j, float f) {
         super.extractRenderState(GuiGraphicsExtractor, i, j, f);
         int textX = panel.x + (panel.width - messageLabel.width) / 2;
-        LegacyFontUtil.applySDFont(b -> GuiGraphicsExtractor.text(this.font, LegacyComponents.ENTER_IP, textX, panel.y + (b ? 53 : 73), CommonColor.GRAY_TEXT.get(), false));
+        LegacyFontUtil.applySDFont(b -> GuiGraphicsExtractor.text(this.font, LegacyComponents.ENTER_IP, textX, panel.y + (b ? 53 : 73), CommonColor.HTML_COLOR_BLACK.get(), false));
     }
 
     private void updateAddButtonStatus() {
