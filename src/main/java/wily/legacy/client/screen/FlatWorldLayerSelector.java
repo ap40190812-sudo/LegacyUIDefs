@@ -82,7 +82,7 @@ public class FlatWorldLayerSelector extends ItemViewerScreen {
         super.renderDefaultBackground(GuiGraphicsExtractor, i, j, f);
         panelRecess.extractRenderState(GuiGraphicsExtractor, i, j, f);
         LegacyFontUtil.applySDFont(sd -> {
-            GuiGraphicsExtractor.text(this.font, this.title, panel.x + accessor.getInteger("title.x", (panel.width - font.width(title)) / 2), panel.y + accessor.getInteger("title.y", 8), CommonColor.GRAY_TEXT.get(), false);
+            GuiGraphicsExtractor.text(this.font, this.title, panel.x + accessor.getInteger("title.x", (panel.width - font.width(title)) / 2), panel.y + accessor.getInteger("title.y", 8), CommonColor.HTML_COLOR_BLACK.get(), false);
             Component layerCount = Component.translatable("legacy.menu.create_flat_world.layer_count", layerSlider.getObjectValue());
             GuiGraphicsExtractor.text(this.font, layerCount, panel.x + accessor.getInteger("layerCount.x", 49) - font.width(layerCount), panelRecess.y + accessor.getInteger("layerCount.y", (panelRecess.getHeight() - font.lineHeight) / 2 + 1), 0xFFFFFFFF, true);
             GuiGraphicsExtractor.text(this.font, selectedLayer.getName(), panel.x + accessor.getInteger("layerName.x", 70), panelRecess.y + accessor.getInteger("layerName.y", (panelRecess.getHeight() - font.lineHeight) / 2 + 1), 0xFFFFFFFF, true);
